@@ -1,0 +1,453 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chhavi Srivastava - Student Portfolio</title>
+
+    <style>
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Element Selectors */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f5f9;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border: 3px solid white;
+        }
+
+        main {
+            width: 90%;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px 0;
+            padding: 22px;
+            border: 1px solid #d1d5db;
+        }
+
+        h2 {
+            color: #1d4ed8;
+            border-bottom: 2px solid #dbeafe;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            color: #172554;
+        }
+
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #dc2626;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #dbeafe;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        .tagline {
+            color: #bfdbfe;
+            font-size: 18px;
+        }
+
+        .highlight {
+            background-color: #eff6ff;
+            padding: 12px;
+        }
+
+        #projects {
+            background-color: #ffffff;
+        }
+
+        #contact {
+            background-color: #ffffff;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>MY STUDENT PORTFOLIO</h1>
+
+        <img src="mypic.png"
+             alt="Photo of Chhavi Srivastava">
+
+        <h2 style="color:white; border:none;">
+            Chhavi Srivastava
+        </h2>
+
+        <p class="tagline">
+            B.Tech CSE (AI &amp; ML) | Second Year
+        </p>
+
+        <p><b>Roll No.:</b> 202510101240021</p>
+
+        <p>Learning | Building | Exploring AI</p>
+
+    </header>
+
+    <main>
+
+        <!-- ABOUT ME -->
+        <section>
+
+            <h2>About Me</h2>
+
+            <article>
+
+                <p>
+                    Hello! My name is <b>Chhavi Srivastava</b>.
+                    I am a second-year B.Tech student pursuing
+                    <b>Computer Science and Engineering with
+                    Artificial Intelligence and Machine Learning.</b>
+                </p>
+
+                <p>
+                    I am interested in programming, Artificial
+                    Intelligence, Machine Learning, Web Development
+                    and problem-solving.
+                </p>
+
+                <p>
+                    My goal is to improve my technical skills,
+                    develop practical projects and gain experience
+                    in the field of technology.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+
+            <h2>My Education</h2>
+
+            <table>
+
+                <caption>
+                    <b>Educational Qualifications</b>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Course / Board</th>
+                        <th>Year</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Class 10</td>
+                        <td>School Education</td>
+                        <td>2023</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1w4B2uoshdtQQsQEnodz8VmSJlZI9bZK-/view?usp=sharing"
+                               target="_blank">
+                                View Marksheet
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Class 12</td>
+                        <td>School Education</td>
+                        <td>2024</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1w4B2uoshdtQQsQEnodz8VmSJlZI9bZK-/view?usp=sharing"
+                               target="_blank">
+                                View Marksheet
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>B.Tech</td>
+                        <td>CSE (AI &amp; ML)</td>
+                        <td>2025 - Present</td>
+                        <td>Currently Pursuing</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- SKILLS -->
+        <section>
+
+            <h2>My Skills</h2>
+
+            <article>
+
+                <h3>Programming Skills</h3>
+
+                <ul>
+                    <li>Python</li>
+                    <li>C Programming</li>
+                    <li>HTML</li>
+                    <li>CSS Basics</li>
+                </ul>
+
+                <h3>Technical Interests</h3>
+
+                <ol>
+                    <li>Artificial Intelligence</li>
+                    <li>Machine Learning</li>
+                    <li>Generative AI</li>
+                    <li>Web Development</li>
+                    <li>Problem Solving</li>
+                </ol>
+
+            </article>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <article>
+
+                <h3>1. Flashcard Generator</h3>
+
+                <p>
+                    A project designed to generate study flashcards
+                    to support revision and learning.
+                </p>
+
+                <p>
+                    <b>GitHub:</b>
+                    <a href="https://github.com/chhavisri711-dev/huggingface-flashcard-generatorr.git"
+                       target="_blank">
+                        View Flashcard Generator
+                    </a>
+                </p>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <h3>2. AI Chatbot</h3>
+
+                <p>
+                    An AI-based chatbot project designed to respond
+                    to user queries through conversational interaction.
+                </p>
+
+                <p>
+                    <b>GitHub:</b>
+                    <a href="https://github.com/chhavisri711-dev/ai-chatbot.git"
+                       target="_blank">
+                        View AI Chatbot
+                    </a>
+                </p>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <h3>3. Automatic Fire Detection and Alert System</h3>
+
+                <p>
+                    An Arduino-based project that detects fire and
+                    smoke and provides alerts through a buzzer and
+                    LCD display.
+                </p>
+
+                <p>
+                    <b>Components:</b> Arduino Uno, fire sensor,
+                    MQ-2 smoke sensor, buzzer and LCD display.
+                </p>
+
+            </article>
+
+            <hr>
+
+            <article>
+
+                <h3>4. Student Portfolio Website</h3>
+
+                <p>
+                    A personal website developed using HTML and CSS
+                    to showcase my education, skills, projects and
+                    assignments.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- ASSIGNMENTS -->
+        <section>
+
+            <h2>My Assignments</h2>
+
+            <p class="highlight">
+                These assignments demonstrate my learning and
+                practical experience with APIs and AI projects.
+            </p>
+
+            <h3>Assignment 02 - OpenAI API</h3>
+
+            <p>
+                <a href="https://github.com/chhavisri711-dev/API-Assignmentt.git"
+                   target="_blank">
+                    View OpenAI API Assignment
+                </a>
+            </p>
+
+            <h3>Assignment 02 - Gemini API</h3>
+
+            <p>
+                <a href="https://github.com/chhavisri711-dev/gemini-api.git"
+                   target="_blank">
+                    View Gemini API Assignment
+                </a>
+            </p>
+
+            <h3>Assignment 03 - Flashcard Generator</h3>
+
+            <p>
+                <a href="https://github.com/chhavisri711-dev/huggingface-flashcard-generatorr.git"
+                   target="_blank">
+                    View Assignment 03
+                </a>
+            </p>
+
+            <h3>Assignment 04 - AI Chatbot</h3>
+
+            <p>
+                <a href="https://github.com/chhavisri711-dev/ai-chatbot.git"
+                   target="_blank">
+                    View Assignment 04
+                </a>
+            </p>
+
+        </section>
+
+        
+
+        <!-- CAREER OBJECTIVE -->
+        <section>
+
+            <h2>Career Objective</h2>
+
+            <p>
+                My objective is to develop strong programming and
+                problem-solving skills, gain practical experience
+                and build a career in Computer Science, Artificial
+                Intelligence and Machine Learning.
+            </p>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                <b>Name:</b> Chhavi Srivastava
+            </p>
+
+            <p>
+                <b>Roll No.:</b> 202510101240021
+            </p>
+
+            <p>
+                <b>Email:</b>
+                <a href="mailto:chhavisri711@gmail.com">
+                    chhavisri711@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <b>Phone:</b> 7307346740
+            </p>
+
+            <p>
+                <b>LinkedIn:</b>
+                <a href="https://www.linkedin.com/in/chhavi-srivastava-7b2a1137b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                   target="_blank">
+                    Visit My LinkedIn
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p><b>Chhavi Srivastava</b></p>
+
+        <p>B.Tech CSE (AI &amp; ML) | Second Year</p>
+
+        <small>
+            &copy; 2026 Chhavi Srivastava. All Rights Reserved.
+        </small>
+
+    </footer>
+
+</body>
+</html>
+```
